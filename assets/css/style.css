@@ -1,0 +1,51 @@
+:root {
+    --primary: #00ffcc;
+    --dark: #1a1a1a;
+    --text: #ffffff;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--dark);
+}
+
+.nav-link {
+    color: var(--text);
+    transition: all 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary);
+    text-shadow: 0 0 10px var(--primary);
+}
+
+.hero {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), var(--dark));
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.card {
+    background-color: #2a2a2a;
+    border: 1px solid var(--primary);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--primary);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .hero h1 { font-size: 1.5rem; }
+}

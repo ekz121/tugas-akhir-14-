@@ -1,0 +1,28 @@
+elearning-platform/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   ├── images/
+│   │   └── (gambar untuk kursus atau logo)
+│   └── data/
+│       └── courses.json
+├── index.html
+├── courses.html
+├── course-detail.html
+├── material.html
+├── quiz.html
+├── profile.html
+├── login.html
+└── register.html
+
+commands/Penjelasan Penting untuk Dosen
+Tema dan Topik: Saya memilih platform e-learning karena relevan dan bermanfaat. Fitur seperti kursus, materi, dan kuis mencerminkan konsep pembelajaran online.
+Desain: Saya merancang tata letak responsif dengan Bootstrap dan CSS, menggunakan tema gelap dan aksen neon untuk tampilan modern.
+Teknologi: Saya menggunakan HTML, CSS, JavaScript, Bootstrap (via CDN), dan AJAX untuk data dinamis dari file JSON. Animasi CSS menambah daya tarik visual.
+Navigasi: Navbar interaktif dengan toggle menu di mobile memastikan pengguna mudah menjelajah.
+Fungsionalitas: Fitur seperti register, login, dan daftar kursus disimulasikan dengan localStorage karena ini proyek front-end.
+Formulir: Formulir register divalidasi dengan JavaScript untuk memastikan input yang benar.
+Keamanan: Saya menambahkan sanitasi input sederhana di JavaScript untuk mencegah XSS, meskipun HTTPS tidak diterapkan karena proyek lokal.
+Responsif: Website diuji di berbagai ukuran layar dengan Bootstrap dan media queries.

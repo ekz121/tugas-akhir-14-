@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "Pemrograman JavaScript",
+        "description": "Pelajari dasar-dasar JavaScript untuk pengembangan web.",
+        "image": "js.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Desain UI/UX",
+        "description": "Kuasai desain antarmuka pengguna yang menarik.",
+        "image": "uiux.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Bahasa Inggris Dasar",
+        "description": "Tingkatkan kemampuan berbahasa Inggris Anda.",
+        "image": "english.jpg"
+    }
+]
